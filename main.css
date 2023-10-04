@@ -83,12 +83,41 @@ section img{
     border-radius: 6px;
 }
 
-@media screen and (min-width:200)and (max-width:820){
+@media screen and (orientation:portrait){
+    body{
+        background-color: rgb(251, 175, 94);
+    } 
+
     .container{
         width: 90%;
         margin: 0 auto;
         display:block;
         padding: 8px;
+    }
+
+    header{
+        padding: 16px 0;
+        background-color: rgb(72, 201, 224);
+        color: #fff;
+    }
+
+    section img{
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+        border-collapse: collapse;
+      }
+
+      .Produtos{
+        display: block;
+        margin-bottom: 32px;
+       }
+      
+      .Produtos button{
+        width: 90%;
+        border: none;
+        background-color: rgb(4, 236, 31);
+        color: #fff;
     }
 
 }
